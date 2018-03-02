@@ -22,10 +22,10 @@ pomodoror <- function(
 
   for(i in 1:pomodoros){
     beep(sound = work_start)
-    print(stringr::str_glue("round {i}: write for: {round(work_length, 1)} minutes"))
+    print(stringr::str_glue("round {i}: write for: {round(work_length/60, 1)} minutes"))
     Sys.sleep(work_length)
     beep(sound = work_end)
-    print(stringr::str_glue("round {i}: break for: {round(break_length, 1)} minutes"))
+    print(stringr::str_glue("round {i}: break for: {round(break_length/60, 1)} minutes"))
     Sys.sleep(break_length)
   }
 }
