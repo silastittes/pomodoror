@@ -14,16 +14,16 @@ pomodoror <- function(
   work_length = 20,
   break_length = 10,
   work_start = "mario",
-  work_end = "fanfare"
+  work_end = "complete"
 ){
-  replicate(
-    pomodoros,
-    {
-      beep(sound = work_start)
-      Sys.sleep(work_length)
-      beep(sound = work_end)
-      Sys.sleep(break_length)
-    }
-  )
+  for(i in 1:pomodoros){
+    beep(sound = work_start)
+    #print(paste0("round", i,": write for:", work_length*60, "minutes"))
+    print(stringr::str_glue("round {i}: write for: {round(work_length/60, 2)} minutes"))
+    Sys.sleep(work_length)
+    beep(sound = work_end)
+    print(stringr::str_glue("round {i}: break for: {round(break_length/60, 2)} minutes"))
+    Sys.sleep(break_length)
+  }
 }
 

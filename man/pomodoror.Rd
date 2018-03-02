@@ -5,7 +5,7 @@
 \title{Pomodoror}
 \usage{
 pomodoror(pomodoros = 4, work_length = 20, break_length = 10,
-  work_start = "mario", work_end = "fanfare")
+  work_start = "mario", work_end = "complete")
 }
 \arguments{
 \item{pomodoros}{Integer value for the number of repetitions.}
