@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1519969951317.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "D217EF8D",
+    "lastKnownWriteTime" : 1519970046,
+    "last_content_update" : 1519970046512,
+    "path" : "~/Dropbox/pomodoror/R/pomodoror.R",
+    "project_path" : "R/pomodoror.R",
+    "properties" : {
+        "cursorPosition" : "27,0",
+        "scrollLine" : "1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
