@@ -10,9 +10,9 @@ pomodoror(pomodoros = 4, work_length = 20, break_length = 10,
 \arguments{
 \item{pomodoros}{Integer value for the number of repetitions.}
 
-\item{work_length}{Amount of time in seconds to work before a break.}
+\item{work_length}{Amount of time in minutes to work before a break.}
 
-\item{break_length}{Amount of time in seconds to break before getting back to work.}
+\item{break_length}{Amount of time in minutes to break before getting back to work.}
 
 \item{work_start}{Noise to make to signal beginning of work time.}
 
