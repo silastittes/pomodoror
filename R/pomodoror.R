@@ -11,8 +11,8 @@
 
 pomodoror <- function(
   pomodoros = 4,
-  work_length = 20,
-  break_length = 10,
+  work_length = 0.1,
+  break_length = 0.1,
   work_start = "mario",
   work_end = "complete"
 ){
