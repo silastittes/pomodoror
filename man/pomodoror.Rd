@@ -4,8 +4,8 @@
 \alias{pomodoror}
 \title{Pomodoror}
 \usage{
-pomodoror(pomodoros = 4, work_length = 20, break_length = 10,
-  work_start = "mario", work_end = "complete")
+pomodoror(pomodoros = 4, work_length = 0.1, break_length = 0.1,
+  work_start = "mario", work_end = "complete", work_finish = "fanfare")
 }
 \arguments{
 \item{pomodoros}{Integer value for the number of repetitions.}
@@ -17,6 +17,8 @@ pomodoror(pomodoros = 4, work_length = 20, break_length = 10,
 \item{work_start}{Noise to make to signal beginning of work time.}
 
 \item{work_end}{Noise to make to signal end of work time/beginning of break time.}
+
+\item{work_finish}{Noise to make at after all pomodoros are completed.}
 }
 \description{
 Write more productively with Pomodoror!
